@@ -681,7 +681,6 @@ a {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  display: inline-flex;
 }
 
 .modal-checkbox:checked + .modal-privacy-text .modal-privacy-icon {
