@@ -588,7 +588,7 @@ a {
   margin-bottom: 8px;
 }
 
-.modal-form-item-mb16 {
+.modal-form-textarea {
   margin-bottom: 16px;
 }
 
@@ -654,8 +654,6 @@ a {
 }
 
 .modal-form-privacy {
-  position: relative;
-  padding-left: 24px;
   margin-bottom: 24px;
 }
 
@@ -668,8 +666,7 @@ a {
 }
 
 .modal-privacy-icon {
-  position: absolute;
-  left: 0;
+  margin-right: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
