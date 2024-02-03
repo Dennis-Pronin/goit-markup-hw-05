@@ -476,17 +476,73 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <label for="user-name" class="modal-label">Name</label>
-          <div class="modal-input-wrapper">
+          <div class="modal-form-item">
+            <label for="user-name" class="modal-label">Name</label>
+            <div class="modal-input-wrapper">
+              <input
+                id="user-name"
+                name="user-name"
+                type="text"
+                class="modal-input"
+              />
+              <svg width="18" height="24" class="modal-input-icon">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-item">
+            <label for="user-phone" class="modal-label">Phone</label>
+            <div class="modal-input-wrapper">
+              <input
+                id="user-phone"
+                name="user-phone"
+                type="text"
+                class="modal-input"
+              />
+              <svg width="18" height="24" class="modal-input-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-item">
+            <label for="user-email" class="modal-label">Email</label>
+            <div class="modal-input-wrapper">
+              <input
+                id="user-email"
+                name="user-email"
+                type="text"
+                class="modal-input"
+              />
+              <svg width="18" height="24" class="modal-input-icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-item">
+            <label for="user-comment" class="modal-label">Comment</label>
+            <div class="modal-input-wrapper">
+              <textarea
+                id="user-comment"
+                name="user-comment"
+                placeholder="Text input"
+                class="modal-textarea"
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-form-privacy">
             <input
-              id="user-name"
-              name="user-name"
-              type="text"
-              class="modal-input"
+              id="user-privacy"
+              type="checkbox"
+              name="user-privacy"
+              class="modal-checkbox visually-hidden"
             />
-            <svg width="18" height="24" class="modal-input-icon">
-              <use href="./images/icons.svg#icon-person"></use>
-            </svg>
+            <label for="user-privacy" class="modal-privacy-text">
+              <span class="modal-privacy-icon">
+                <svg width="10" height="8" class="modal-privacy-svg">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg> </span
+              >I accept the terms and conditions of the Privacy Policy</label
+            >
           </div>
         </form>
       </div>
