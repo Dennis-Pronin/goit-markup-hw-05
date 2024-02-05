@@ -443,10 +443,13 @@ a {
   background-color: #31d0aa;
 }
 
+.footer-social {
+  margin-right: 80px;
+}
+
 .footer-icons {
   display: flex;
   gap: 16px;
-  margin-right: 80px;
 }
 
 .footer-icon {
@@ -516,6 +519,11 @@ a {
 }
 
 .modal {
+  display: none;
+}
+
+.is-open {
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
@@ -627,6 +635,7 @@ a {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2e2f42;
 }
 
 .modal-input:focus + .modal-input-icon {
@@ -680,6 +689,10 @@ a {
   fill: transparent;
 }
 
+.modal-checkbox:focus + .modal-privacy-text .modal-privacy-icon {
+  border: 1px solid #4d5ae5;
+}
+
 .modal-checkbox:checked + .modal-privacy-text .modal-privacy-icon {
   background-color: #404bbf;
   border: none;
@@ -688,6 +701,7 @@ a {
 
 .privacy-link {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .modal-btn {
